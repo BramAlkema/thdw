@@ -3,13 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Hague Defence Week</title>
+    <title>The Hague Defence Week 2026</title>
+    <meta name="description" content="The Netherlands' premier defence and security event during Prinsjesdag week">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>The Hague Defence Week</h1>
-        <p>During the week of Prinsjesdag</p>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo">THDW</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#programme">Programme</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#expo">Expo</a></li>
+                <li><a href="#partners">Partners</a></li>
+            </ul>
+            <a href="#register" class="btn btn-primary">Register</a>
+        </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1580752300992-559f8e94e0b9?w=1920&q=80" alt="Defence">
+        </div>
+        <div class="hero-content">
+            <p class="hero-label">The Netherlands' Premier Defence & Security Event</p>
+            <h1 class="hero-title">THE HAGUE<br>DEFENCE WEEK</h1>
+            <div class="hero-details">
+                <span class="hero-date">Sep 14 – 18, 2026</span>
+                <span class="hero-divider">|</span>
+                <span class="hero-location">The Hague, Netherlands</span>
+            </div>
+            <p class="hero-subtitle">During the week of Prinsjesdag</p>
+            <div class="hero-cta">
+                <a href="#register" class="btn btn-primary btn-large">Get Tickets</a>
+                <a href="#about" class="btn btn-outline btn-large">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Attendees</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">80+</span>
+                    <span class="stat-label">Speakers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Where Defence Meets Innovation</h2>
+            <p class="section-subtitle">The Hague Defence Week brings together military leaders, policymakers, defence industry executives, and innovators to shape the future of security and defence.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-grid">
+            <div class="gallery-item gallery-item-large">
+                <img src="https://images.unsplash.com/photo-1579912437766-7896df6d3cd3?w=800&q=80" alt="International Summit">
+                <div class="gallery-overlay">
+                    <h3>High-Level Summits</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=600&q=80" alt="Networking">
+                <div class="gallery-overlay">
+                    <h3>Strategic Networking</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=600&q=80" alt="Technology">
+                <div class="gallery-overlay">
+                    <h3>Defence Technology</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80" alt="Expo">
+                <div class="gallery-overlay">
+                    <h3>Innovation Expo</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Conference">
+                <div class="gallery-overlay">
+                    <h3>Expert Panels</h3>
+                </div>
+            </div>
+            <div class="gallery-item gallery-item-large">
+                <img src="https://images.unsplash.com/photo-1577495508326-19a1b3cf65b7?w=800&q=80" alt="The Hague">
+                <div class="gallery-overlay">
+                    <h3>The Hague</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1559223607-a43c990c692c?w=600&q=80" alt="Cybersecurity">
+                <div class="gallery-overlay">
+                    <h3>Cyber Security</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=600&q=80" alt="Government">
+                <div class="gallery-overlay">
+                    <h3>Government Leaders</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programme" class="programme">
+        <div class="container">
+            <h2 class="section-title">Programme Highlights</h2>
+            <div class="programme-grid">
+                <div class="programme-card">
+                    <div class="programme-icon">01</div>
+                    <h3>Keynote Sessions</h3>
+                    <p>Hear from defence ministers, NATO officials, and industry leaders on the future of European security.</p>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">02</div>
+                    <h3>Innovation Showcases</h3>
+                    <p>Discover breakthrough technologies in aerospace, cybersecurity, and autonomous systems.</p>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">03</div>
+                    <h3>B2B Matchmaking</h3>
+                    <p>Connect with potential partners through our curated networking programme.</p>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">04</div>
+                    <h3>Startup Pitch</h3>
+                    <p>Defence tech startups compete for investment and partnership opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="section-title">Partners</h2>
+            <p class="section-subtitle">Join leading organisations supporting The Hague Defence Week</p>
+            <div class="partners-cta">
+                <a href="#contact" class="btn btn-primary">Become a Partner</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <div class="register-content">
+                <h2 class="section-title">Join Us in The Hague</h2>
+                <p class="section-subtitle">September 14–18, 2026 · During Prinsjesdag Week</p>
+                <a href="#" class="btn btn-primary btn-large">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>The Hague Defence Week</h3>
+                    <p>The Netherlands' premier defence and security event</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Event</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programme">Programme</a></li>
+                        <li><a href="#speakers">Speakers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Hague Defence Week. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
